@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+body{
+    text-align: center;
+    margin: 0;
+    background-image: url('./images/bg_image.jpg');
+    background-size: cover;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    margin-top: 0%;
+    
+}
+div{
+    padding-top: 20px;
+}
+.links{
+    display: inline;
+    padding: 20px;
+    
+    /* to give space between links */
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+img{
+    margin-top: 120px;
+    width: 500px;
+    height: 300px;
+}
+/* pseudo class */
+.link:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+#welcome{
+    background:linear-gradient(to bottom right, yellow,rgb(201, 36, 137),orange);
+}
+.contact_1 h3{
+    color: black;
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: black;
+}
